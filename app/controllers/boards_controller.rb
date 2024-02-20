@@ -1,9 +1,5 @@
 class BoardsController < ApplicationController
 
-  def homepage
-    redirect_to("/boards")
-  end
-
   def index
     matching_boards = Board.all
 
